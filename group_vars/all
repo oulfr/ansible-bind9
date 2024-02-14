@@ -1,6 +1,6 @@
 ---
-master_ipaddress: 192.168.1.1
-slave_ipaddress: 192.168.1.2
+master_ipaddress: 172.22.110.246
+slave_ipaddress: 172.22.97.135
 bind_config_basepath: /etc/bind
 bind_config_master_zones:
   - example.com
@@ -22,5 +22,5 @@ bind_service_enabled: yes
 bind_config_allow_query: []
 bind_config_master_allow_transfer:
   - 127.0.0.1
-  - 192.168.1.1
+  - 172.22.97.135
   - 192.168.1.2
