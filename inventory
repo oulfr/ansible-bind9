@@ -3,10 +3,10 @@ all:
     master:
       ansible_port: 22
       ansible_host: 172.22.110.246
-      ansible_user: user
-      ansible_password: user
+      ansible_user: root
+      ansible_password: root
     slave:
       ansible_port: 22
       ansible_host: 172.22.97.135
-      ansible_user: user
-      ansible_password: user
+      ansible_user: root
+      ansible_password: root
